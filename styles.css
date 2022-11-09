@@ -1,0 +1,146 @@
+body{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    background: #1f2937;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 20%;
+    
+}
+
+.headerlinks { 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.headerbody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+#left{
+    width: 40%;
+}
+
+#left #main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0 0 -20px 0;
+}
+
+#left p, #links{
+    font-size: 24px;
+    color: #e5e7eb;
+}
+
+#logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+
+}
+.p1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px 25%;
+}
+#infoheader{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 0 0 30px 0;
+    
+}
+.pics {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.info p{
+    width: 150px;
+    text-align: center;
+}
+
+
+
+.p2 {
+    width: 100%;
+    padding: 100px 25%;
+    background-color: #e5e7eb;
+  }
+
+  #quote {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+  }
+
+  #author {
+    text-align: end;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .p3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+  }
+
+  .container {
+  background: #3882f6;
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding: 25px 50px;
+  }
+
+  #big {
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background: #1f2937;
+    color: white;
+  }
+  
+  #headerbutton, #p3button {
+    background: #3882f6;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
